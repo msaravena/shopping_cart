@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: 'Oswald', sans-serif;
+    /* max-width: 1400px; */
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: dodgerblue;
+    background-image: radial-gradient(whitesmoke, dodgerblue)
+  }
+
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.overflow {
+    overflow: hidden;
+}
+.bg-grey {
+    color: #434343;
+}
+
+/* Navigation */
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    
+}
+.navlogo {
+    width: 155px;
+    height: 59px;
+    margin: 0px 30px;
+}
+
+.nav_items {
+    display: flex;
+}
+
+.hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.column1 {
+    width: 400px;
+    height: 70vh;
+}
+.nav {
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.columnshop {
+    display: flex;
+    position: fixed;
+    background-color: #434343;
+    width: 30%;
+    margin-left: 70%;
+    height: 100%;
+}
+
+.nav li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+.nav li a:hover,
+.nav li a.active {
+    color: #eb4a5a;
+}
+
+#pills-profile-tab:hover {
+    color: whitesmoke;
+}
+
+/* Header */
+.header {
+    height: 300px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    background-color: rebeccapurple;
+    background-image: radial-gradient(whitesmoke, rebeccapurple)
+    
+}
+.logo {
+    width: 500px;
+    height: 500px;
+}
+.bg-card {
+    transition: all 0.25s;
+}
+.row .bg-card:hover {
+    transform: translateY(-10px);
+}
+.btn-danger {
+    background-color: #eb4a5a !important;
+    border-color: #434343;
+    transform: #434343;
+    margin-right: 20px;
+}
+
+#contact {
+    background-color:hsl(0deg 0% 90%);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 60vh;
+    padding: 4rem;  
+    margin-top: 40px;  
+    margin-bottom: 0;
+}
+
+#contact .contact_item ul {
+    list-style: none;
+    line-height: 2rem;
+}
+
+#contact .contact_item .icons  {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+    
+}
+
+#contact .contact_item .icons a {
+    padding: 0.4rem;
+}
+
+.textfooter {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 180px;
+    background-color: #434343;
+}
